@@ -1,0 +1,87 @@
+
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: url("../fonts/TitilliumWeb-Regular.ttf") format('truetype');
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+}
+
+html {
+    /*font-family: 'Droid Arabic Kufi', 'Tahoma', serif;*/
+    /*font-size: 16px;*/
+
+}
+
+body{
+    background-color: #fbfbfb;
+    color: #080d1d;
+    font-family: 'TitilliumWeb' ,sans-serif;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+}
+.line{
+    width: 50%;
+    border-bottom: 0.5px solid;
+}
+
+.border {
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label{
+    /*font-family: 'Droid Arabic Naskh', serif;*/
+    font-family: 'TitilliumWeb' ,sans-serif;
+    font-size: 36px;
+    /*font-weight: bold;*/
+}
+
+.details-btn{
+    background-color: #6499a4;
+    width: 25%;
+}
+
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+
+.hafar-albatin-details{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+/*.thead-cases{*/
+/*    direction: rtl;*/
+/*    display: table-cell;*/
+/*    text-align: right;*/
+/*}*/
+
+.all-cases{
+    color: #a40700;
+}
+
+.recovered-cases{
+    color: green;
+}
+.death-cases{
+    color: red;
+}
+.active-cases{
+    color: burlywood;
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Learner Academy</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+<div class="container">
+
+    <div class="d-flex justify-content-center pt-5">
+        <span class="logo">Controlboard</span>
+    </div>
+
+    <div class="pt-5 mt-3">
+        <div class="d-flex justify-content-center">
+
+                <a th:href="@{/student}" class="btn btn-light border col-2 shadow bg-body mx-3">
+                    <div class="d-flex flex-column justify-content-center">
+                        <label class="label d-flex justify-content-center pt-3">Student</label>
+                    </div>
+                </a>
+
+            <a th:href="@{/teacher}" class="btn btn-light border col-2 shadow bg-body mx-3">
+                <div class="d-flex flex-column justify-content-center">
+                    <label class="label d-flex justify-content-center pt-3">Teacher</label>
+                </div>
+            </a>
+            
+           </div>
+        
+        <div class="d-flex flex-row-reverse justify-content-center my-3">
+            
+            <a th:href="@{/class}" class="btn btn-light border col-2 shadow bg-body mx-3">
+                <div class="d-flex flex-column justify-content-center">
+                    <label class="label d-flex justify-content-center pt-3">Class</label>
+                </div>
+            </a>
+            <a th:href="@{/subject}" class="btn btn-light border col-2 shadow bg-body mx-3">
+                <div class="d-flex flex-column justify-content-center">
+                    <label class="label d-flex justify-content-center pt-3">Subject</label>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+   
+
+    <div class="container-fluid pt-5">
+       
+    <div class="d-flex justify-content-center">
+
+            <a th:href="@{/admin}" class="btn btn-light border col-2 shadow bg-body mx-3">
+                <div class="d-flex flex-column justify-content-center">
+                    <label class="label d-flex justify-content-center pt-3">Admin Users</label>
+                </div>
+            </a>
+    </div>
+    </div>
+
+</div>
+
+</body>
+</html>
